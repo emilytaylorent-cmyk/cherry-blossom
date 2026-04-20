@@ -11,7 +11,7 @@ import About from './pages/Websites.tsx';
 function App() {
     return (
         <BrowserRouter>
-            <div className='w-full bg-[#f9f9f9] flex flex-row px-[5%] border-b-2 items-end border-[#C999BC]'>
+            <div className='w-full bg-[#f9f9f9] flex flex-row px-[5%] border-b-2 items-end border-[#C999BC] z-20'>
                 <Link to="/"><img src={Logo} alt="Company Logo" width="200" /></Link>
         
                     <ul className='w-[40%] flex flex-row justify-between ml-auto'>

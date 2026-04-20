@@ -19,7 +19,7 @@ function Home() {
     <div className='max-w-[100vw]'>
 
       {/* custom flower flow section */}
-      <div className='max-w-370 mx-auto mt-[-20]'>
+      <div className='max-w-370 mx-auto'>
         <img src={FlowLeft} />
         <h2 className='text-center text-[24px] font-["Kameron"] font-bold'>Creating quality websites <br /> that are beautiful and functional <br /> for your business.</h2>
         <img src={FlowRight} />

@@ -13,8 +13,6 @@ function App() {
         <BrowserRouter>
             <div className='w-full bg-[#f9f9f9] flex flex-row px-[5%] border-b-2 items-end border-[#C999BC]'>
                 <Link to="/"><img src={Logo} alt="Company Logo" width="200" /></Link>
-                {/* <p>Created with React, TypeScript, and Tailwind CSS</p> */}
-
         
                     <ul className='w-[40%] flex flex-row justify-between ml-auto'>
                         <Link to="/About"><li className='text-[18px] font-["Kameron"] hover:bg-[#C999BC] hover:cursor-pointer p-4 w-30 text-center'>About</li> </Link>

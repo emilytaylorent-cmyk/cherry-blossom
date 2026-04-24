@@ -22,7 +22,7 @@ function ASLProject() {
         <div className='max-w-[100vw]'>
 
             {/* custom flower flow section */}
-            <div className='max-w-370 mx-auto mt-[-20]'>
+            <div className='max-w-370 mx-auto'>
                 <img src={FlowLeft} />
                 <h2 className='text-center text-[30px] font-["Kameron"] font-bold'>Freed-Hardeman's American Sign Language Club</h2>
                 <p className='text-center text-[20px] font-["Kameron"]'>Case Study on Designs for Campus Outreach</p>

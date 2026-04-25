@@ -29,7 +29,7 @@ function CacaoProject() {
         <div className='max-w-[100vw]'>
 
             {/* custom flower flow section */}
-            <div className='max-w-370 mx-auto mt-[-20]'>
+            <div className='max-w-370 mx-auto'>
                 <img src={FlowLeft} />
                 <h2 className='text-center text-[30px] font-["Kameron"] font-bold'>Cacao del Sol</h2>
                 <p className='text-center text-[20px] font-["Kameron"]'>Case Study Class Project on the Full Design Process</p>
@@ -101,6 +101,9 @@ function CacaoProject() {
                     </div>
                 </div>
             </SectionHolder>
+
+                        <img src={Lace} className='w-[80%] mx-auto'/>
+
 
 
             <SectionHolder>

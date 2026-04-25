@@ -5,8 +5,8 @@ import Logo from './assets/pictures/Logo.svg'
 
 
 import Projects from './pages/ASLProject.tsx';
-import Contact from './pages/Designs.tsx';
-import About from './pages/Websites.tsx';
+import Contact from './pages/CacaoProject.tsx';
+import About from './pages/About.tsx';
 
 function App() {
     return (

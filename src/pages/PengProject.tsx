@@ -22,7 +22,7 @@ function PengProject() {
         <div className='max-w-[100vw]'>
 
             {/* custom flower flow section */}
-            <div className='max-w-370 mx-auto mt-[-20]'>
+            <div className='max-w-370 mx-auto'>
                 <img src={FlowLeft} />
                 <h2 className='text-center text-[30px] font-["Kameron"] font-bold'>Peng-cycle: A Recycling Game Mobile App</h2>
                 <p className='text-center text-[20px] font-["Kameron"]'>Case Study on UX / UI design for a Recycling App.</p>

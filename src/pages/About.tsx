@@ -4,7 +4,7 @@ import '../index.css'
 import FlowLeft from "../assets/pictures/FlowerTop.svg"
 import FlowRight from "../assets/pictures/FlowerFlowRight.svg"
 import PicFlower from "../assets/pictures/FlowerSkewRight.svg"
-import Sunset from "../assets/pictures/Sunset2.jpg"
+import Sunset from "../assets/pictures/Sunset2.JPG"
 import SectionHolder from '../components/SectionHolder'
 import FlowerFlowSection from '../components/FlowerFlowSection'
 import SkillSec from '../components/SkillSec'

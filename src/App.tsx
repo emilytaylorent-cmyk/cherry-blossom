@@ -8,7 +8,7 @@ import ASLProject from './pages/ASLProject'
 import CycleProject from './pages/CycleProject'
 import CacaoProject from './pages/CacaoProject'
 import PreparedProject from './pages/PreparedProject'
-
+import Scroll from "./components/Scroll.tsx"
 function App() {
     return (
         <BrowserRouter>
@@ -59,6 +59,7 @@ function App() {
 
 
             </div>
+            <Scroll />
 
 
 

@@ -12,6 +12,7 @@ import Scroll from "./components/Scroll.tsx"
 function App() {
     return (
         <BrowserRouter>
+            <Scroll />
             <div className='w-full bg-black flex flex-row px-[5%] border-b-2 items-end border-[#C37795]'>
                 <Link to="/"><h1 className='text-[30px] text-white font-["Kameron"] mb-2'>Emily Taylor</h1></Link>
                 {/* <p>Created with React, TypeScript, and Tailwind CSS</p> */}
@@ -59,7 +60,7 @@ function App() {
 
 
             </div>
-            <Scroll />
+
 
 
 

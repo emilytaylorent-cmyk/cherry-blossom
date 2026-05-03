@@ -104,8 +104,8 @@ function ASLProject() {
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>The Website</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>A lot of people had to track down information from chapel slides, or find one of our posters hanging up, so I brainstormed another way to get people involved quickly and be able to find information without scraping our social media accounts.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose pb-4'>I wasn't able to implement my website before leadership changed, and leadership didn't seem interested in the rebranding effort, so the design remained in Figma. If you'd like to see the design, click <a className='underline text-pink-700' href="https://www.figma.com/design/rfTX5NdoOo2om42cwCanFJ/FHU-ASL-Website?node-id=0-1&t=VQ3nvjFYhpiCyyei-1" target="_blank" rel="noopener noreferrer">here</a> or the button below!</p>
-                        <a href="https://www.figma.com/design/rfTX5NdoOo2om42cwCanFJ/FHU-ASL-Website?node-id=0-1&t=VQ3nvjFYhpiCyyei-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='bg-[#0E0970] text-gray-300 border-2 border-gray-300 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:text-black hover:border-[#F1D6E0] hover:cursor-pointer'>
-            See the Design</div></a>
+                        <a href="https://www.figma.com/design/rfTX5NdoOo2om42cwCanFJ/FHU-ASL-Website?node-id=0-1&t=VQ3nvjFYhpiCyyei-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              See the Design</div></a>
                     </div>
                 </div>
             </SectionHolder>
@@ -126,8 +126,8 @@ function ASLProject() {
                     </div>
                 </div>
 
-                <Link to="/"><div className='bg-[#0E0970] text-gray-300 border-2 border-gray-300 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:text-black hover:border-[#F1D6E0] hover:cursor-pointer'>
-            Return to Home Page</div></Link>   
+                <Link to="/"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              Return to Home Page</div></Link>   
             </SectionHolder>
            
         </div>

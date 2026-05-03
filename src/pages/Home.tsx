@@ -54,8 +54,8 @@ function Home() {
                 </div>
               </div>
 
-              <Link to={"/CycleProject"}><div className='bg-[#2F9043]  border-3 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer'>
-                See Case Study!</div></Link>
+              <Link to={"/CycleProject"}><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              See Case Study!</div></Link>
             </div>
 
 
@@ -72,8 +72,8 @@ function Home() {
                 </div>
               </div>
 
-              <Link to="/PreparedProject"><div className='bg-[#0B113D] border-gray-600 border-3 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer text-white'>
-                See Case Study!</div></Link>
+              <Link to="/PreparedProject"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              See Case Study!</div></Link>
             </div>
 
 
@@ -94,8 +94,8 @@ function Home() {
                 </div>
               </div>
 
-              <Link to="/CacaoProject"><div className='bg-black text-white  border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer'>
-                See Case Study!</div></Link>
+              <Link to="/CacaoProject"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              See Case Study!</div></Link>
             </div>
 
 
@@ -112,8 +112,8 @@ function Home() {
                 </div>
               </div>
 
-              <Link to="/ASLProject"><div className='bg-[#0E0970] text-gray-300 border-2 border-gray-300 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:text-black hover:border-[#F1D6E0] hover:cursor-pointer'>
-                See Case Study!</div></Link>
+              <Link to="/ASLProject"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              See Case Study!</div></Link>
             </div>
 
 
@@ -126,20 +126,20 @@ function Home() {
 
       </SectionHolder>
 
-      <SectionHolder>
-        <div className='flex flex-row justify-between pt-[5%]' id="about">
+      <div className='max-w-370 mx-auto px-[10%] bg-[#2A141D]/78'>
+        <div className='flex flex-row justify-between mt-[2%] py-[4%]' id="about" >
           <div className='w-[50%] gap-[20] flex flex-col justify-center'>
             <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose py-3 text-white'>Meet the Designer</h2>
-            <p className='font-["Kameron"] text-[20px] leading-loose text-white'>A small town Christian with a big heart, I’ll deliver a beautiful and usable solution for your business' website.</p>
-            <p className='font-["Kameron"] text-[20px] leading-loose pt-3 text-white'>UX / UI Design is my specialty, especially with my keen eye for detail and empathy for users. I enjoy creating websites, upkeeping them, and refining them. </p>
-            <p className='font-["Kameron"] text-[20px] leading-loose pt-3 text-white'>I love people, and all people deserve to have things that work. It is my mission to create quality designs that are accesssible, beautiful, and functional!</p>
+            <p className='font-["Kameron"] text-[20px] leading-loose text-white'>A small-town Christian with a big heart, I’ll deliver a beautiful and functional solution for your business' website.</p>
+            <p className='font-["Kameron"] text-[20px] leading-loose pt-3 text-white'>UX / UI Design is my specialty, especially with my keen eye for detail and empathy for users. I enjoy creating websites, optimizing them, and refining them. </p>
+            <p className='font-["Kameron"] text-[20px] leading-loose pt-3 text-white'>It is my mission to create quality designs that are accesssible, beautiful, and functional!</p>
           </div>
 
           <div className='w-[40%] flex justify-center pt-5'>
             <img src={Profile} width='400' height='200' />
           </div>
         </div>
-      </SectionHolder>
+      </div>
 
       <SectionHolder>
         <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose pt-[10%] pb-5 mt-[-40] text-white'>Skills</h2>
@@ -163,15 +163,10 @@ function Home() {
 
 
 
-          <div className='w-40% flex flex-col gap-[8.5%]'>
+          <div className='w-40% flex flex-col items-center justify-center'>
             <SkillSec title="Design">
               <li>Figma</li>
               <li>Adobe Illustrator</li>
-            </SkillSec>
-
-            <SkillSec title="Writing">
-              <li>Grammar</li>
-              <li>Writing/Reading</li>
             </SkillSec>
           </div>
 
@@ -182,11 +177,11 @@ function Home() {
             <ul className='list-disc pl-5 font-["Kameron"] leading-loose text-white text-[20px]'>
               <li>Attention to detail</li>
               <li>Hard-working</li>
-              <li>Extravert</li>
+              <li>Extrovert</li>
               <li>Organized</li>
               <li>Encourager</li>
               <li>Positive</li>
-              <li>Team-Worker</li>
+              <li>Team Player</li>
             </ul>
           </div>
 

@@ -99,7 +99,7 @@ function CycleProject() {
                     <div className='w-[50%] gap-[20] pt-[5%]'>
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>Features</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose pb-4'>Aside from tasks, the users are able to add friends. There is a leaderboard that tallys up the number of points each week if people wish to compete with their siblings or friends. </p>
-                        <a href="https://www.figma.com/design/YWadhozmmECRtLTeTATqO6/Recycling-Penguin-App?node-id=11-2993&t=f956Z6gheGIu1KEZ-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='bg-[#2F9043]  border-3 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer'>
+                        <a href="https://www.figma.com/design/YWadhozmmECRtLTeTATqO6/Recycling-Penguin-App?node-id=11-2993&t=f956Z6gheGIu1KEZ-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
               See the Design</div></a>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ function CycleProject() {
                     </div>
                 </div>
 
-                <Link to="/"><div className='bg-[#2F9043]  border-3 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer'>
+                <Link to="/"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
               Return to Home Page</div></Link>
             </SectionHolder>
 

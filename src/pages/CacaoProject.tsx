@@ -112,8 +112,8 @@ function CacaoProject() {
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>The Website</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose '>For the website, it was more about the story than selling the products. So, using the company story and the brand's papel picado, I focused on the family and the impact of the chocolate.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose pb-4'>Most of the website is black and white, since people tend to ignore bright colors because of advertisements or think it looks unprofessional on a website.</p>
-                        <a href="https://www.figma.com/design/UnAUqJ9pz8jUGNyI0QLz4f/Cacao-Del-Sol?node-id=0-1&t=zDWFzgkvnmBwljMX-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='bg-black text-white  border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer'>
-               See the Design</div></a>
+                        <a href="https://www.figma.com/design/UnAUqJ9pz8jUGNyI0QLz4f/Cacao-Del-Sol?node-id=0-1&t=zDWFzgkvnmBwljMX-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              See the Design</div></a>
                     </div>
                 </div>
             </SectionHolder>
@@ -166,8 +166,8 @@ function CacaoProject() {
                 </div>
 
               
-                <Link to="/"><div className='bg-black text-white  border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer'>
-             Return to Home Page</div></Link>
+                <Link to="/"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              Return to Home Page</div></Link>
             </SectionHolder>
 
         </div>

@@ -39,23 +39,25 @@ function App() {
             <div className='max-w-370 mx-auto px-[10%] flex flex-col gap-10 text-white py-10 bg-black '>
                 <div className='flex flex-row gap-10 justify-evenly items-center'>
                     <div className='w-[40%] pt-4 pb-7'>
-                        <h1 className='font-["Kameron"] text-[30px] pb-1'>Emily Taylor</h1>
+                        <Link to="/"><h1 className='font-["Kameron"] text-[30px] pb-1'>Emily Taylor</h1></Link>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>Creating quality websites that are beautiful and functional.</p>
 
                     </div>
-
-
-                    <ul className='font-["Kameron"] text-[20px] leading-loose w-[30%]'>
-                        <li><Link2 to="/#about" className='hover:bg-[#C37795] hover:cursor-pointer  p-[5%]'>About</Link2></li>
-                        <li><Link2 to="/#projects" className='hover:bg-[#C37795] hover:cursor-pointer  p-[5%]'>Projects</Link2></li>
-                        <li><Link2 to="/#contact" className='hover:bg-[#C37795] hover:cursor-pointer  p-[5%]'>Contact</Link2></li>
-                    </ul>
 
                     <ul className='font-["Kameron"] text-[20px] leading-loose w-[40%]'>
                         <li>Email: emilytaylor@gmail.com</li>
                         <li>LinkedIn: emilytaylor3333333</li>
                         <li>Website: emily-portfolio.netlify.com</li>
                     </ul>
+
+
+                    <ul className='font-["Kameron"] text-[20px] leading-loose w-[30%]'>
+                        <li><Link2 to="/#about" className='hover:bg-[#2A141D]/78 hover:cursor-pointer p-[5%] text-[#C37795]'>About</Link2></li>
+                        <li><Link2 to="/#projects" className='hover:bg-[#2A141D]/78 hover:cursor-pointer  p-[5%]  text-[#C37795]'>Projects</Link2></li>
+                        <li><Link2 to="/#contact" className='hover:bg-[#2A141D]/78 hover:cursor-pointer  p-[5%]  text-[#C37795]'>Contact</Link2></li>
+                    </ul>
+
+                    
                 </div>
 
 

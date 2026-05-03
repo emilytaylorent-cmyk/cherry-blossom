@@ -11,9 +11,14 @@
 }
 
 
+p, h1, h2 {
+  color: white;
+}
+
 
 h1, h2 {
   font-family: "Kameron", serif;
+  letter-spacing: .02em;
 }
 
 p {

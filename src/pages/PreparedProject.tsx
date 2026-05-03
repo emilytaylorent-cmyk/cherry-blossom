@@ -1,11 +1,10 @@
 
+import {Link } from 'react-router-dom';
 import '../index.css'
 
-import FlowLeft from "../assets/pictures/FlowerTop.svg"
-import FlowRight from "../assets/pictures/FlowerFlowRight.svg"
+
 import SectionHolder from '../components/SectionHolder'
-import FlowerLeft from "../assets/pictures/FlowerSkewLeft.svg"
-import FlowerRight from "../assets/pictures/FlowerSkewRight.svg"
+
 import PreparedLogin from "../assets/pictures/Login.png"
 import PreparedLocation from "../assets/pictures/Locations.png"
 import PreparedFor from "../assets/pictures/Prepare For.png"
@@ -20,11 +19,11 @@ import SkillSec from '../components/SkillSec'
 function PreparedProject() {
 
     return (
-        <div className='max-w-[100vw]'>
+        <div className='max-w-[100vw] bg-black pb-5'>
 
             {/* custom flower flow section */}
-            <div className='max-w-370 mx-auto mt-[-20]'>
-                <img src={FlowLeft} />
+            <div className='max-w-370 mx-auto pt-20'>
+
                 <h2 className='text-center text-[30px] font-["Kameron"] font-bold'>Prepared: an Emergency Preperation App</h2>
                 <p className='text-center text-[20px] font-["Kameron"]'>Case Study on UX / UI design for a Emergency Preperation App.</p>
             </div>
@@ -44,11 +43,11 @@ function PreparedProject() {
                 </div>
             </SectionHolder>
 
-            <hr className='w-[80%] mx-auto' />
+            
 
             <SectionHolder>
                 <div className='flex flex-row justify-evenly py-[5%]'>
-                    <img src={FlowerLeft} width='100' className='pt-[6%]' />
+                  
                     <div className='flex flex-col justify-center items-center gap-2'>
                         <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose '>Project Goals</h2>
                         <SkillSec>
@@ -58,11 +57,11 @@ function PreparedProject() {
                         </SkillSec>
 
                     </div>
-                    <img src={FlowerRight} width='90' className='pt-[6%]' />
+                 
                 </div>
             </SectionHolder>
 
-            <hr className='w-[80%] mx-auto' />
+           
 
             {/* branding */}
             <SectionHolder>
@@ -86,7 +85,7 @@ function PreparedProject() {
 
                 </div>
             </SectionHolder>
-            <hr className='w-[80%] mx-auto' />
+           
 
             <SectionHolder>
                 <div className='flex flex-row justify-between py-[5%] gap-[3%]'>
@@ -104,13 +103,14 @@ function PreparedProject() {
                     <div className='w-[50%] gap-[20] pt-[5%]'>
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>Preperation</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>The Preperation is broken down into catagories, with ones for weather disasters and first aid. Each catagory has small steps, no longer than 15 minutes, that are easy to understand and achieve.</p>
-                        <p className='font-["Kameron"] text-[18px] leading-loose'>The catagories are accompanied by icons to signify which disaster they are preparing for. If you want to see all of the screens, check out the Figma design by hitting the button below!</p>
-                        <a href="https://www.figma.com/design/YWadhozmmECRtLTeTATqO6/Recycling-Penguin-App?node-id=11-2993&t=f956Z6gheGIu1KEZ-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-[#C999BC] border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer mt-7'>See the Design</div></a>
+                        <p className='font-["Kameron"] text-[18px] leading-loose pb-4'>The catagories are accompanied by icons to signify which disaster they are preparing for. If you want to see all of the screens, check out the Figma design by hitting the button below!</p>
+                        <a href="https://www.figma.com/design/YWadhozmmECRtLTeTATqO6/Recycling-Penguin-App?node-id=11-2993&t=f956Z6gheGIu1KEZ-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='bg-[#0B113D] border-gray-600 border-3 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer text-white'>
+             See the Design</div></a>
                     </div>
                 </div>
             </SectionHolder>
 
-            <hr className='w-[80%] mx-auto' />
+           
 
             <SectionHolder>
                 <div className='flex flex-row justify-between py-[5%]'>
@@ -132,9 +132,10 @@ function PreparedProject() {
                     </div>
                 </div>
 
-                <a className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-[#C999BC] border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer mt-7'>Return to Home Page</div></a>
+                <Link to="/"><div className='bg-[#0B113D] border-gray-600 border-3 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer text-white'>
+             Return to Home Page</div></Link>
             </SectionHolder>
-            <img src={FlowRight} />
+
 
 
 

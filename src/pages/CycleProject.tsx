@@ -1,12 +1,9 @@
-
 import '../index.css'
 
-import FlowLeft from "../assets/pictures/FlowerTop.svg"
-import FlowRight from "../assets/pictures/FlowerFlowRight.svg"
 import PengComplete from "../assets/pictures/Completed Tasks.png"
 import SectionHolder from '../components/SectionHolder'
-import FlowerLeft from "../assets/pictures/FlowerSkewLeft.svg"
-import FlowerRight from "../assets/pictures/FlowerSkewRight.svg"
+import {Link } from 'react-router-dom';
+
 import PengHome from "../assets/pictures/PengHome.png"
 import PengTask from "../assets/pictures/Tasks.png"
 import PengLeader from "../assets/pictures/Leaderboard.png"
@@ -16,14 +13,13 @@ import PengCover from "../assets/pictures/Cover.png"
 
 import SkillSec from '../components/SkillSec'
 
-function PengProject() {
+function CycleProject() {
 
     return (
-        <div className='max-w-[100vw]'>
+        <div className='max-w-[100vw] bg-black pb-5'>
 
             {/* custom flower flow section */}
-            <div className='max-w-370 mx-auto'>
-                <img src={FlowLeft} />
+            <div className='max-w-370 mx-auto pt-20'>
                 <h2 className='text-center text-[30px] font-["Kameron"] font-bold'>Peng-cycle: A Recycling Game Mobile App</h2>
                 <p className='text-center text-[20px] font-["Kameron"]'>Case Study on UX / UI design for a Recycling App.</p>
             </div>
@@ -34,6 +30,7 @@ function PengProject() {
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>The Problem</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>For this class project, we had to identify a problem and come up with a creative solution that we could design a mobile app for. I chose the problem of global warming and zoned in on promoting recycling as my problem.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>There are plenty of recycling apps out there, but none for kids. I decided to come up with a game that combined Webkinz and Finch that promoted recycling from kids 7 - 14 years old.</p>
+
                     </div>
 
                     <div className='w-[50%] flex flex-col gap-2 mt-6'>
@@ -43,11 +40,10 @@ function PengProject() {
                 </div>
             </SectionHolder>
 
-            <hr className='w-[80%] mx-auto' />
+            
 
             <SectionHolder>
                 <div className='flex flex-row justify-evenly py-[5%]'>
-                    <img src={FlowerLeft} width='100' className='pt-[6%]' />
                     <div className='flex flex-col justify-center items-center gap-2'>
                         <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose '>Project Goals</h2>
                         <SkillSec>
@@ -57,11 +53,11 @@ function PengProject() {
                         </SkillSec>
 
                     </div>
-                    <img src={FlowerRight} width='90' className='pt-[6%]' />
+
                 </div>
             </SectionHolder>
 
-            <hr className='w-[80%] mx-auto' />
+            
 
             {/* branding */}
             <SectionHolder>
@@ -85,7 +81,7 @@ function PengProject() {
 
                 </div>
             </SectionHolder>
-            <hr className='w-[80%] mx-auto' />
+            
 
             <SectionHolder>
                 <div className='flex flex-row justify-between py-[5%] gap-[3%]'>
@@ -98,17 +94,18 @@ function PengProject() {
                             <img src={PengLeader} width='200' height='200' className='border-black border' />
                             <p className='font-["Kameron"] text-[12px] leading-loose'>Leaderboard screen</p>
                         </div>
-                            
+
                     </div>
                     <div className='w-[50%] gap-[20] pt-[5%]'>
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>Features</h2>
-                        <p className='font-["Kameron"] text-[18px] leading-loose'>Aside from tasks, the users are able to add friends. There is a leaderboard that tallys up the number of points each week if people wish to compete with their siblings or friends. </p>
-                        <a href="https://www.figma.com/design/YWadhozmmECRtLTeTATqO6/Recycling-Penguin-App?node-id=11-2993&t=f956Z6gheGIu1KEZ-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-[#C999BC] border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer mt-7'>See the Design</div></a>
+                        <p className='font-["Kameron"] text-[18px] leading-loose pb-4'>Aside from tasks, the users are able to add friends. There is a leaderboard that tallys up the number of points each week if people wish to compete with their siblings or friends. </p>
+                        <a href="https://www.figma.com/design/YWadhozmmECRtLTeTATqO6/Recycling-Penguin-App?node-id=11-2993&t=f956Z6gheGIu1KEZ-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='bg-[#2F9043]  border-3 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer'>
+              See the Design</div></a>
                     </div>
                 </div>
             </SectionHolder>
 
-            <hr className='w-[80%] mx-auto' />
+            
 
             <SectionHolder>
                 <div className='flex flex-row justify-between py-[5%]'>
@@ -124,14 +121,12 @@ function PengProject() {
                     </div>
                 </div>
 
-                <a className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-[#C999BC] border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer mt-7'>Return to Home Page</div></a>
+                <Link to="/"><div className='bg-[#2F9043]  border-3 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:text-black hover:cursor-pointer'>
+              Return to Home Page</div></Link>
             </SectionHolder>
-            <img src={FlowRight} />
-
-
 
         </div>
     )
 }
 
-export default PengProject
+export default CycleProject

@@ -4,7 +4,7 @@ import SunsetPink from "../assets/pictures/PinkSunset.jpg"
 import Profile from "../assets/pictures/EmilyPicture.jpg"
 import Peng from "../assets/pictures/PengLogo.png"
 import Cloud from "../assets/pictures/Cloud.png"
-import { Link } from 'react-router-dom';
+import { HashLink as Link2 } from 'react-router-hash-link';
 import WaveBG from "../assets/pictures/WaveBG.svg"
 
 import SectionHolder from '../components/SectionHolder'
@@ -54,8 +54,8 @@ function Home() {
                 </div>
               </div>
 
-              <Link to={"/CycleProject"}><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-              See Case Study!</div></Link>
+              <Link2 to="/CycleProject#top"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              See Case Study!</div></Link2>
             </div>
 
 
@@ -72,8 +72,8 @@ function Home() {
                 </div>
               </div>
 
-              <Link to="/PreparedProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-              See Case Study!</div></Link>
+              <Link2 to="/PreparedProject#top"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              See Case Study!</div></Link2>
             </div>
 
 
@@ -94,8 +94,8 @@ function Home() {
                 </div>
               </div>
 
-              <Link to="/CacaoProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-              See Case Study!</div></Link>
+              <Link2 to="/CacaoProject#top"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              See Case Study!</div></Link2>
             </div>
 
 
@@ -112,8 +112,8 @@ function Home() {
                 </div>
               </div>
 
-              <Link to="/ASLProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-              See Case Study!</div></Link>
+              <Link2 to="/ASLProject#top"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+              See Case Study!</div></Link2>
             </div>
 
 

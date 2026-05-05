@@ -1,7 +1,7 @@
 
 import '../index.css'
 
-import { Link } from 'react-router-dom';
+import { HashLink as Link2 } from 'react-router-hash-link';
 
 import OldSlide from "../assets/pictures/PowerPointOld.png"
 import NewSlide from "../assets/pictures/NewASLSlide.png"
@@ -21,7 +21,7 @@ import SkillSec from '../components/SkillSec'
 function ASLProject() {
 
     return (
-        <div className='max-w-[100vw] bg-black pb-5'>
+        <div className='max-w-[100vw] bg-black pb-5' id="top">
 
             {/* custom flower flow section */}
             <div className='max-w-370 mx-auto pt-20'>
@@ -144,8 +144,8 @@ function ASLProject() {
                             </div>
                         </div>
 
-                        <Link to={"/CycleProject"}><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-                            See Case Study!</div></Link>
+                        <Link2 to="/CycleProject#top"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link2>
                     </div>
 
 
@@ -161,8 +161,8 @@ function ASLProject() {
                              </div>
                         </div>
 
-                        <Link to="/PreparedProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-                            See Case Study!</div></Link>
+                        <Link2 to="/PreparedProject#top"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link2>
                     </div>
 
                     <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[30%]'>
@@ -176,8 +176,8 @@ function ASLProject() {
                                 </div>
                         </div>
 
-                        <Link to="/CacaoProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-                            See Case Study!</div></Link>
+                        <Link2 to="/CacaoProject#top"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link2>
                     </div>
 
 

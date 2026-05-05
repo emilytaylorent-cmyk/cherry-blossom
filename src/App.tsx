@@ -12,7 +12,7 @@ import Scroll from "./components/Scroll.tsx"
 function App() {
     return (
         <BrowserRouter>
-            <Scroll />
+            
             <div className='w-full bg-black flex flex-row px-[5%] border-b-2 items-end border-[#C37795]'>
                 <Link to="/"><h1 className='text-[30px] text-white font-["Kameron"] mb-2'>Emily Taylor</h1></Link>
                 {/* <p>Created with React, TypeScript, and Tailwind CSS</p> */}
@@ -46,14 +46,14 @@ function App() {
 
                     </div>
 
-                    <ul className='font-["Kameron"] text-[20px] leading-loose hidden md:display md:w-[40%]'>
+                    <ul className='font-["Roberto", sans-serif] text-[18px] leading-loose hidden md:block md:w-[40%]'>
                         <li>Email: emilytaylor@gmail.com</li>
                         <li>LinkedIn: emilytaylor3333333</li>
                         <li>Website: emily-portfolio.netlify.com</li>
                     </ul>
 
 
-                    <ul className='font-["Kameron"] text-[20px] leading-loose w-[30%] hidden md:display'>
+                    <ul className='font-["Kameron"] text-[20px] leading-loose w-[30%] hidden md:block'>
                         <li><Link2 to="/#about" className='hover:bg-[#2A141D]/78 hover:cursor-pointer p-[5%] text-[#C37795]'>About</Link2></li>
                         <li><Link2 to="/#projects" className='hover:bg-[#2A141D]/78 hover:cursor-pointer  p-[5%]  text-[#C37795]'>Projects</Link2></li>
                         <li><Link2 to="/#contact" className='hover:bg-[#2A141D]/78 hover:cursor-pointer  p-[5%]  text-[#C37795]'>Contact</Link2></li>

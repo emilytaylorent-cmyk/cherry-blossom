@@ -1,13 +1,16 @@
 
 import '../index.css'
 
-import {Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import OldSlide from "../assets/pictures/PowerPointOld.png"
 import NewSlide from "../assets/pictures/NewASLSlide.png"
 import SectionHolder from '../components/SectionHolder'
 import ASLColor from '../assets/pictures/ASL-Color-Logo.png'
 import ASLPoster from '../assets/pictures/Poster-For-Meetings.png'
+import Peng from "../assets/pictures/PengLogo.png"
+import Cloud from "../assets/pictures/Cloud.png"
+import Cacao from "../assets/pictures/chocolatePics/LogoBlack 2.png"
 
 import HomeASL from "../assets/pictures/HomeScreenASL.png"
 import EventsASL from "../assets/pictures/AboutEventsASL.png"
@@ -22,7 +25,7 @@ function ASLProject() {
 
             {/* custom flower flow section */}
             <div className='max-w-370 mx-auto pt-20'>
-      
+
                 <h2 className='text-center text-[30px] font-["Kameron"] font-bold px-5 lg:px-0'>Freed-Hardeman's American Sign Language Club</h2>
                 <p className='text-center text-[20px] font-["Kameron"]'>Case Study on Designs for Campus Outreach</p>
             </div>
@@ -42,11 +45,11 @@ function ASLProject() {
                 </div>
             </SectionHolder>
 
-            
+
 
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-evenly py-[5%]'>
-                   
+
                     <div className='flex flex-col justify-center items-center gap-2'>
                         <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose '>Project Goals</h2>
                         <SkillSec>
@@ -56,11 +59,11 @@ function ASLProject() {
                         </SkillSec>
 
                     </div>
-                   
+
                 </div>
             </SectionHolder>
 
-            
+
 
             {/* branding */}
             <SectionHolder>
@@ -74,19 +77,19 @@ function ASLProject() {
                             </div>
 
                             <div className='flex lg:w-[40%] mx-auto lg:mx-0 flex-col gap-2 mt-6'>
-                                <img src={ASLColor} width='250' height='200' className='border-white border'/>
+                                <img src={ASLColor} width='250' height='200' className='border-white border' />
                                 <p className='font-["Kameron"] text-[12px] leading-loose'>New logo</p>
                             </div>
                         </div>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>Wanting to keep the same smooth geometric feel, I incorperated shapes into the designs. However, I wanted to make it feel professional as well, so I chose fonts keeping with that line between fun and professional.</p>
                     </div>
                     <div className='lg:w-[30%] flex flex-col gap-2 mt-6 mx-auto lg:mx-0'>
-                        <img src={ASLPoster} width='300' height='190'  />
+                        <img src={ASLPoster} width='300' height='190' />
                         <p className='font-["Kameron"] text-[12px] leading-loose'>Poster created from branding materials</p>
                     </div>
                 </div>
             </SectionHolder>
-            
+
 
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%]'>
@@ -105,12 +108,12 @@ function ASLProject() {
                         <p className='font-["Kameron"] text-[18px] leading-loose'>A lot of people had to track down information from chapel slides, or find one of our posters hanging up, so I brainstormed another way to get people involved quickly and be able to find information without scraping our social media accounts.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose pb-4'>I wasn't able to implement my website before leadership changed, and leadership didn't seem interested in the rebranding effort, so the design remained in Figma. If you'd like to see the design, click <a className='underline text-pink-700' href="https://www.figma.com/design/rfTX5NdoOo2om42cwCanFJ/FHU-ASL-Website?node-id=0-1&t=VQ3nvjFYhpiCyyei-1" target="_blank" rel="noopener noreferrer">here</a> or the button below!</p>
                         <a href="https://www.figma.com/design/rfTX5NdoOo2om42cwCanFJ/FHU-ASL-Website?node-id=0-1&t=VQ3nvjFYhpiCyyei-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-              See the Design</div></a>
+                            See the Design</div></a>
                     </div>
                 </div>
             </SectionHolder>
 
-            
+
 
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%]'>
@@ -126,10 +129,62 @@ function ASLProject() {
                     </div>
                 </div>
 
-                <Link to="/"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-              Return to Home Page</div></Link>   
+                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>More Projects!</h2>
+
+                <div className='flex flex-col lg:flex-row justify-between'>
+                
+                    <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[30%]'>
+                        <div className='flex flex-row gap-10 pb-5'>
+                            <div className='w-[40%] flex flex-col items-center justify-center'>
+                                <img src={Peng} className='rounded-sm ' />
+                            </div>
+
+                            <div className='w-[60%] flex flex-col  justify-center'>
+                                <h3 className='font-["Kameron"] text-[20px] text-white'>Peng-Cycle</h3>
+                            </div>
+                        </div>
+
+                        <Link to={"/CycleProject"}><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link>
+                    </div>
+
+
+
+                    <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[30%]'>
+                        <div className='flex flex-row gap-10 pb-5'>
+                            <div className='w-[40%] flex flex-col items-center justify-center'>
+                                <img src={Cloud} className='lg:h-[90%] rounded-sm' />
+                            </div>
+
+                            <div className='w-[60%] flex flex-col items-center  justify-center'>
+                                <h3 className='font-["Kameron"] text-[20px] text-white'>Prepared</h3>
+                             </div>
+                        </div>
+
+                        <Link to="/PreparedProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link>
+                    </div>
+
+                    <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[30%]'>
+                        <div className='flex flex-row gap-10 pb-5'>
+                            <div className='w-[40%] flex flex-col items-center justify-center'>
+                                <img src={Cacao} className='lg:h-[90%] rounded-sm' />
+                            </div>
+
+                            <div className='w-[60%] flex flex-col items-center justify-center'>
+                                <h3 className='font-["Kameron"] text-[20px] text-white'>Cacao del Sol</h3>
+                                </div>
+                        </div>
+
+                        <Link to="/CacaoProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link>
+                    </div>
+
+
+                </div>
+
             </SectionHolder>
-           
+
         </div>
     )
 }

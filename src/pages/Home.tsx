@@ -23,7 +23,7 @@ import PDF from "../assets/pictures/EmilyTaylor-Resume.pdf"
 function Home() {
 
   return (
-    <div className='max-w-[100vw] bg-black'>
+    <div className='max-w-[100vw] bg-black' id="home">
 
 
       {/* custom flower flow section */}

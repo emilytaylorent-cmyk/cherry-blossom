@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.tsx';
 import { HashLink as Link2 } from 'react-router-hash-link';
 
@@ -8,13 +8,13 @@ import ASLProject from './pages/ASLProject'
 import CycleProject from './pages/CycleProject'
 import CacaoProject from './pages/CacaoProject'
 import PreparedProject from './pages/PreparedProject'
-import Scroll from "./components/Scroll.tsx"
+
 function App() {
     return (
         <BrowserRouter>
             
             <div className='w-full bg-black flex flex-row px-[5%] border-b-2 items-end border-[#C37795]'>
-                <Link to="/"><h1 className='text-[30px] text-white font-["Kameron"] mb-2'>Emily Taylor</h1></Link>
+                <Link2 to="/#home"><h1 className='text-[30px] text-white font-["Kameron"] mb-2'>Emily Taylor</h1></Link2>
                 {/* <p>Created with React, TypeScript, and Tailwind CSS</p> */}
 
                 
@@ -41,7 +41,7 @@ function App() {
             <div className='max-w-370 mx-auto px-[10%] flex flex-col gap-10 text-white py-10 bg-black '>
                 <div className='flex flex-col md:flex-row gap-10 justify-evenly items-center'>
                     <div className='md:w-[40%] pt-4 pb-7'>
-                        <Link to="/"><h1 className='font-["Kameron"] text-[30px] pb-1'>Emily Taylor</h1></Link>
+                        <Link2 to="/#home"><h1 className='font-["Kameron"] text-[30px] pb-1'>Emily Taylor</h1></Link2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>Creating quality websites that are beautiful and functional.</p>
 
                     </div>

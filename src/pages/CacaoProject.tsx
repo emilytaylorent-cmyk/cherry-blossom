@@ -19,6 +19,11 @@ import Packets1 from "../assets/pictures/chocolatePics/Mockup-Packet-1.png"
 import Packets2 from "../assets/pictures/chocolatePics/Mockup-Packet-2.png"
 
 
+import ASL from "../assets/pictures/ASL-Color-Logo.png"
+import Peng from "../assets/pictures/PengLogo.png"
+import Cloud from "../assets/pictures/Cloud.png"
+
+
 import SkillSec from '../components/SkillSec'
 
 function CacaoProject() {
@@ -166,8 +171,58 @@ function CacaoProject() {
                 </div>
 
               
-                <Link to="/"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-              Return to Home Page</div></Link>
+                                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>More Projects!</h2>
+
+                <div className='flex flex-col lg:flex-row justify-between'>
+                
+                    <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[30%]'>
+                        <div className='flex flex-row gap-10 pb-5'>
+                            <div className='w-[40%] flex flex-col items-center justify-center'>
+                                <img src={ASL} className='rounded-sm ' />
+                            </div>
+
+                            <div className='w-[60%] flex flex-col  justify-center'>
+                                <h3 className='font-["Kameron"] text-[20px] text-white'>FHU ASL Club</h3>
+                            </div>
+                        </div>
+
+                        <Link to={"/ASLProject"}><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link>
+                    </div>
+
+
+
+                    <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[30%]'>
+                        <div className='flex flex-row gap-10 pb-5'>
+                            <div className='w-[40%] flex flex-col items-center justify-center'>
+                                <img src={Cloud} className='lg:h-[90%] rounded-sm' />
+                            </div>
+
+                            <div className='w-[60%] flex flex-col items-center  justify-center'>
+                                <h3 className='font-["Kameron"] text-[20px] text-white'>Prepared</h3>
+                             </div>
+                        </div>
+
+                        <Link to="/PreparedProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link>
+                    </div>
+
+                    <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[30%]'>
+                        <div className='flex flex-row gap-10 pb-5'>
+                            <div className='w-[40%] flex flex-col items-center justify-center'>
+                                <img src={Peng} className='lg:h-[90%] rounded-sm' />
+                            </div>
+
+                            <div className='w-[60%] flex flex-col items-center justify-center'>
+                                <h3 className='font-["Kameron"] text-[20px] text-white'>Peng-Cycle</h3>
+                                </div>
+                        </div>
+
+                        <Link to="/CacaoProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link>
+                    </div>
+                </div>
+
             </SectionHolder>
 
         </div>

@@ -1,5 +1,5 @@
 
-import {Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../index.css'
 
 
@@ -12,6 +12,10 @@ import PreparedChecklist from "../assets/pictures/Checklist Preview.png"
 import PreparedCover from "../assets/pictures/PreparedCover.png"
 import PreparedSunny from "../assets/pictures/Henderson Location.png"
 import PreparedHurricane from "../assets/pictures/Jacksonville Location.png"
+
+import Peng from "../assets/pictures/PengLogo.png"
+import Cacao from "../assets/pictures/chocolatePics/LogoBlack 2.png"
+import ASL from "../assets/pictures/ASL-Color-Logo.png"
 
 
 import SkillSec from '../components/SkillSec'
@@ -43,11 +47,11 @@ function PreparedProject() {
                 </div>
             </SectionHolder>
 
-            
+
 
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-evenly py-[5%]'>
-                  
+
                     <div className='flex flex-col justify-center items-center gap-2'>
                         <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose '>Project Goals</h2>
                         <SkillSec>
@@ -57,11 +61,11 @@ function PreparedProject() {
                         </SkillSec>
 
                     </div>
-                 
+
                 </div>
             </SectionHolder>
 
-           
+
 
             {/* branding */}
             <SectionHolder>
@@ -85,7 +89,7 @@ function PreparedProject() {
 
                 </div>
             </SectionHolder>
-           
+
 
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%] gap-[3%]'>
@@ -98,19 +102,19 @@ function PreparedProject() {
                             <img src={PreparedFor} width='200' height='200' className='border-black border' />
                             <p className='font-["Kameron"] text-[12px] leading-loose'>Preperation Screen of Prepared</p>
                         </div>
-                            
+
                     </div>
                     <div className='lg:w-[50%] gap-[20] pt-[5%]'>
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>Preperation</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>The Preperation is broken down into catagories, with ones for weather disasters and first aid. Each catagory has small steps, no longer than 15 minutes, that are easy to understand and achieve.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose pb-4'>The catagories are accompanied by icons to signify which disaster they are preparing for. If you want to see all of the screens, check out the Figma design by hitting the button below!</p>
                         <a href="https://www.figma.com/design/YWadhozmmECRtLTeTATqO6/Recycling-Penguin-App?node-id=11-2993&t=f956Z6gheGIu1KEZ-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-              See the Design</div></a>
+                            See the Design</div></a>
                     </div>
                 </div>
             </SectionHolder>
 
-           
+
 
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%]'>
@@ -132,8 +136,57 @@ function PreparedProject() {
                     </div>
                 </div>
 
-                <Link to="/"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-               Return to Home Page</div></Link>
+                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>More Projects!</h2>
+
+                <div className='flex flex-col lg:flex-row justify-between'>
+
+                    <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[30%]'>
+                        <div className='flex flex-row gap-10 pb-5'>
+                            <div className='w-[40%] flex flex-col items-center justify-center'>
+                                <img src={ASL} className='rounded-sm ' />
+                            </div>
+
+                            <div className='w-[60%] flex flex-col  justify-center'>
+                                <h3 className='font-["Kameron"] text-[20px] text-white'>FHU ASL Club</h3>
+                            </div>
+                        </div>
+
+                        <Link to={"/ASLProject"}><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link>
+                    </div>
+
+
+
+                    <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[30%]'>
+                        <div className='flex flex-row gap-10 pb-5'>
+                            <div className='w-[40%] flex flex-col items-center justify-center'>
+                                <img src={Peng} className='lg:h-[90%] rounded-sm' />
+                            </div>
+
+                            <div className='w-[60%] flex flex-col items-center justify-center'>
+                                <h3 className='font-["Kameron"] text-[20px] text-white'>Peng-Cycle</h3>
+                            </div>
+                        </div>
+
+                        <Link to="/CacaoProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link>
+                    </div>
+
+                    <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[30%]'>
+                        <div className='flex flex-row gap-10 pb-5'>
+                            <div className='w-[40%] flex flex-col items-center justify-center'>
+                                <img src={Cacao} className='lg:h-[90%] rounded-sm' />
+                            </div>
+
+                            <div className='w-[60%] flex flex-col items-center justify-center'>
+                                <h3 className='font-["Kameron"] text-[20px] text-white'>Cacao del Sol</h3>
+                            </div>
+                        </div>
+
+                        <Link to="/CacaoProject"><div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
+                            See Case Study!</div></Link>
+                    </div>
+                </div>
             </SectionHolder>
 
 

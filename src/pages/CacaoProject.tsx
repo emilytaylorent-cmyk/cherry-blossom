@@ -97,7 +97,7 @@ function CacaoProject() {
                         </div>
 
                     </div>
-                    <div className='lg:w-[40%] flex flex-col gap-2 mt-6'>
+                    <div className='lg:w-[40%] flex flex-col gap-2 mt-6 items-center justify-center'>
                         <img src={SolWhiteLogo} width='400' height='300' className='border border-black' />
                         <p className='font-["Kameron"] text-[12px] leading-loose '>White logo for Cacao del Sol</p>
                     </div>
@@ -108,7 +108,7 @@ function CacaoProject() {
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between pb-[5%]'>
                     <div className='lg:w-[50%] flex flex-col gap-2 mt-[5%]'>
-                        <div className='flex flex-col gap-2 mt-6'>
+                        <div className='flex flex-col gap-2 mt-6 justify-center items-center'>
                             <img src={FamilyCacao} width='400' height='200' />
                             <p className='font-["Kameron"] text-[12px] leading-loose '>Designed Featured Family Photo</p>
                         </div>

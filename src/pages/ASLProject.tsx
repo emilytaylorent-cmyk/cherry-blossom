@@ -94,11 +94,11 @@ function ASLProject() {
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%]'>
                     <div className='lg:w-[50%] flex flex-col gap-2 mt-1'>
-                        <div className='flex flex-col gap-2 mt-6'>
+                        <div className='flex flex-col gap-2 mt-6 items-center justify-center'>
                             <img src={HomeASL} width='400' height='200' />
                             <p className='font-["Kameron"] text-[12px] leading-loose'>Designed Homescreen</p>
                         </div>
-                        <div className='flex flex-col gap-2 mt-6'>
+                        <div className='flex flex-col gap-2 mt-6 items-center justify-center'>
                             <img src={EventsASL} width='400' height='200' />
                             <p className='font-["Kameron"] text-[12px] leading-loose'>Designed About Screen</p>
                         </div>

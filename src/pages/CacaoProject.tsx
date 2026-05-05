@@ -28,20 +28,20 @@ function CacaoProject() {
 
             {/* custom flower flow section */}
             <div className='max-w-370 mx-auto pt-20'>
-                <h2 className='text-center text-[30px] font-["Kameron"] font-bold '>Cacao del Sol</h2>
+                <h2 className='text-center text-[30px] font-["Kameron"] font-bold px-5 lg:px-0'>Cacao del Sol</h2>
                 <p className='text-center text-[20px] font-["Kameron"] '>Case Study Class Project on the Full Design Process</p>
             </div>
 
             <SectionHolder>
-                <div className='flex flex-row justify-between py-[5%]'>
-                    <div className='w-[40%] gap-[20]'>
+                <div className='flex flex-col lg:flex-row justify-between py-[5%]'>
+                    <div className='lg:w-[40%] gap-[20]'>
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 '>The Prompt</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose '>Giving us a fictional name, our teacher tasked us with creating a brand identity and visual assets for a chocolate company.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose '>I chose the name "Cacao del Sol," which originiated from Mexican roots and means "Chocolate of the Sun."</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose '>Delieverables for this project included: a logo, a website, a company story, and chocolate packaging.</p>
                     </div>
 
-                    <div className='w-[50%] flex flex-col gap-2'>
+                    <div className='lg:w-[50%] flex flex-col gap-2'>
                         <img src={CacaoDelSolLogo} width='500' height='200' className='border border-black' />
                         <p className='font-["Kameron"] text-[12px] leading-loose '>Logo of Cacao del Sol, a fictional chocolate company</p>
                     </div>
@@ -73,7 +73,7 @@ function CacaoProject() {
 
             <SectionHolder>
                 <div className='flex flex-row items-center justify-center py-[5%]'>
-                    <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 pl-2 text-center '>Cacao del Sol leans deeply into their Mexican culture with <br /> fun bright colors, while creating a family-friendly chocolate. <br />They are a family business run on hope, love, and <br /> papel picado.</h2>
+                    <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 pl-2 text-center '>Cacao del Sol leans deeply into their Mexican culture with fun bright colors, while creating a family-friendly chocolate. They are a family business run on hope, love, and  papel picado.</h2>
                 </div>
             </SectionHolder>
 
@@ -81,8 +81,8 @@ function CacaoProject() {
 
             {/* branding */}
             <SectionHolder>
-                <div className='flex flex-row justify-between py-[5%] gap-[2%]'>
-                    <div className='flex flex-col gap-[2%] w-[55%]'>
+                <div className='flex  flex-col lg:flex-row justify-between py-[5%] gap-[2%]'>
+                    <div className='flex flex-col gap-[2%] lg:w-[55%]'>
                         <div className='flex flex-row justify-between'>
                             <div className='gap-[20]'>
                                 <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 '>Branding</h2>
@@ -92,7 +92,7 @@ function CacaoProject() {
                         </div>
 
                     </div>
-                    <div className='w-[40%] flex flex-col gap-2 mt-6'>
+                    <div className='lg:w-[40%] flex flex-col gap-2 mt-6'>
                         <img src={SolWhiteLogo} width='400' height='300' className='border border-black' />
                         <p className='font-["Kameron"] text-[12px] leading-loose '>White logo for Cacao del Sol</p>
                     </div>
@@ -101,14 +101,14 @@ function CacaoProject() {
 
 
             <SectionHolder>
-                <div className='flex flex-row justify-between pb-[5%]'>
-                    <div className='w-[50%] flex flex-col gap-2 mt-[5%]'>
+                <div className='flex flex-col lg:flex-row justify-between pb-[5%]'>
+                    <div className='lg:w-[50%] flex flex-col gap-2 mt-[5%]'>
                         <div className='flex flex-col gap-2 mt-6'>
                             <img src={FamilyCacao} width='400' height='200' />
                             <p className='font-["Kameron"] text-[12px] leading-loose '>Designed Featured Family Photo</p>
                         </div>
                     </div>
-                    <div className='w-[50%] gap-[20] pt-[5%]'>
+                    <div className='lg:w-[50%] gap-[20] pt-[5%]'>
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>The Website</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose '>For the website, it was more about the story than selling the products. So, using the company story and the brand's papel picado, I focused on the family and the impact of the chocolate.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose pb-4'>Most of the website is black and white, since people tend to ignore bright colors because of advertisements or think it looks unprofessional on a website.</p>
@@ -122,25 +122,25 @@ function CacaoProject() {
                         
 
             <SectionHolder>
-                <div className='flex flex-row justify-between pt-[5%]'>
-                    <div className='w-[45%] gap-[20]'>
+                <div className='flex flex-col lg:flex-row justify-between pt-[5%]'>
+                    <div className='lg:w-[45%] gap-[20]'>
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 tracking-wide'>Chocolate Packaging</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>I chose three common Mexican chocolate flavors for my designs: dark, cinnamon, and almond. I chose colors from a inspiration photo to help the brand stay consistent with packaging and designs.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>I chose two primary fonts, a script for the chocolate heading and a serif font for the English translation of the chocolate name. The illustrations use the same lacy feel as the logo and the stars help bring the chocolates together.</p>
                     </div>
 
-                    <div className='w-[45%] flex flex-col gap-2 mt-10'>
+                    <div className='lg:w-[45%] flex flex-col gap-2 mt-10'>
                         <img src={Chocolates} width='500' height='200' />
                         <p className='font-["Kameron"] text-[12px] leading-loose'>Two of the hot chocolate package designs for Cacao del Sol: cinnamon and dark.</p>
                     </div>
                 </div>
 
-                <div className='flex flex-row justify-between pb-[5%]'>
-                    <div className='w-[45%] flex flex-col gap-2 mt-10'>
+                <div className='flex flex-col lg:flex-row justify-between pb-[5%]'>
+                    <div className='lg:w-[45%] flex flex-col gap-2 mt-10'>
                         <img src={Packets1} width='500' height='200' />
                         <p className='font-["Kameron"] text-[12px] leading-loose'>Two of the hot chocolate package designs for Cacao del Sol: cinnamon and almond.</p>
                     </div>
-                    <div className='w-[45%] flex flex-col gap-2 mt-10'>
+                    <div className='lg:w-[45%] flex flex-col gap-2 mt-10'>
                         <img src={Packets2} width='500' height='200' />
                         <p className='font-["Kameron"] text-[12px] leading-loose'>The three chocolate designs for Cacao del Sol: almond, dark, and cinnamon.</p>
                     </div>
@@ -151,15 +151,15 @@ function CacaoProject() {
                 </SectionHolder>
 
             <SectionHolder>
-                <div className='flex flex-row items-center justify-center'>
+                <div className='flex flex-col lg:flex-row items-center justify-center'>
                     <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 pl-2 text-center'>Brand Guidelines</h2>
                 </div>
-                <div className='flex flex-row justify-between pb-[5%]'>
+                <div className='flex flex-col lg:flex-row justify-between lg:pb-[5%] items-center'>
                     <img src={Brand1} width='300' height='300' className='border border-black'/>
                     <img src={Brand2} width='300' height='300' className='border border-black'/>
                     <img src={Brand3} width='300' height='300' className='border border-black'/>
                 </div>
-                <div className='flex flex-row justify-between pb-[5%]'>
+                <div className='flex flex-col lg:flex-row justify-between pb-[5%] mx-auto items-center'>
                     <img src={Brand4} width='300' height='300' className='border border-black'/>
                     <img src={Brand5} width='300' height='300' className='border border-black'/>
                     <img src={Brand6} width='300' height='300' className='border border-black'/>

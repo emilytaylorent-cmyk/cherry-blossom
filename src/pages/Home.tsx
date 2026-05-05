@@ -27,10 +27,10 @@ function Home() {
 
 
       {/* custom flower flow section */}
-      <div className='max-w-370 mx-auto min-h-140 h-[80%] flex items-center justify-center relative'>
+      <div className='max-w-370 mx-auto md:min-h-140 min-h-80 h-[80%] flex items-center justify-center relative'>
         <img src={SunsetPink} className='absolute top-0 left-0 w-full h-[110%]'/>
-        <div className='bg-[#2A141D]/78 p-7 w-[40%] relative'>
-          <h2 className='text-center text-white text-[24px] font-["Kameron"] font-bold z-10'>Creating quality websites <br /> that are beautiful and functional <br /> for your business.</h2>
+        <div className='bg-[#2A141D]/78 p-7 md:w-[40%] w-[70%] relative'>
+          <h2 className='text-center text-white text-[24px] font-["Kameron"] font-bold z-10'>Creating quality websites that are beautiful and functional for your business.</h2>
         </div>
 
       </div>
@@ -40,12 +40,12 @@ function Home() {
 
         <div className='flex flex-col gap-10'>
           {/* top half */}
-          <div className='flex flex-row justify-between'>
+          <div className='flex flex-col lg:flex-row justify-between'>
 
-            <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 w-[47%]'>
+            <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[47%]'>
               <div className='flex flex-row gap-10 pb-5'>
-                <div className='w-[40%]'>
-                  <img src={Peng} className='rounded-sm' />
+                <div className='w-[40%] flex flex-col items-center justify-center'>
+                  <img src={Peng} className='rounded-sm ' />
                 </div>
 
                 <div className='w-[60%]'>
@@ -60,10 +60,10 @@ function Home() {
 
 
 
-            <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 w-[47%]'>
+            <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[47%]'>
               <div className='flex flex-row gap-10 pb-5'>
-                <div className='w-[40%]'>
-                  <img src={Cloud} className='h-[90%] rounded-sm' />
+                <div className='w-[40%] flex flex-col items-center justify-center'>
+                  <img src={Cloud} className='lg:h-[90%] rounded-sm' />
                 </div>
 
                 <div className='w-[60%]'>
@@ -80,12 +80,12 @@ function Home() {
           </div>
           {/* end of top half */}
 
-          <div className='flex flex-row justify-between'>
+           <div className='flex flex-col lg:flex-row justify-between'>
 
-            <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 w-[47%]'>
+            <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[47%]'>
               <div className='flex flex-row gap-10 pb-5'>
-                <div className='w-[40%]'>
-                  <img src={Cacao} className='h-[90%] rounded-sm' />
+                <div className='w-[40%] flex flex-col items-center justify-center'>
+                  <img src={Cacao} className='lg:h-[90%] rounded-sm' />
                 </div>
 
                 <div className='w-[60%]'>
@@ -100,9 +100,9 @@ function Home() {
 
 
 
-            <div className=' border-3 rounded-md p-6 bg-[#2A141D]/78 w-[47%]'>
+            <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[47%]'>
               <div className='flex flex-row gap-10 pb-5'>
-                <div className='w-[40%]'>
+                <div className='w-[40%] flex flex-col items-center justify-center'>
                   <img src={ASL} className='rounded-sm' />
                 </div>
 
@@ -127,15 +127,15 @@ function Home() {
       </SectionHolder>
 
       <div className='max-w-370 mx-auto px-[10%] bg-[#2A141D]/78'>
-        <div className='flex flex-row justify-between mt-[2%] py-[4%]' id="about" >
-          <div className='w-[50%] gap-[20] flex flex-col justify-center'>
+        <div className='flex lg:flex-row flex-col justify-between mt-[2%] py-[4%]' id="about" >
+          <div className='lg:w-[50%] gap-[20] flex flex-col justify-center'>
             <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose py-3 text-white'>Meet the Designer</h2>
             <p className='font-["Kameron"] text-[20px] leading-loose text-white'>A small-town Christian with a big heart, I’ll deliver a beautiful and functional solution for your business' website.</p>
             <p className='font-["Kameron"] text-[20px] leading-loose pt-3 text-white'>UX / UI Design is my specialty, especially with my keen eye for detail and empathy for users. I enjoy creating websites, optimizing them, and refining them. </p>
             <p className='font-["Kameron"] text-[20px] leading-loose pt-3 text-white'>It is my mission to create quality designs that are accesssible, beautiful, and functional!</p>
           </div>
 
-          <div className='w-[40%] flex justify-center pt-5'>
+          <div className='lg:w-[40%] flex justify-center pt-5'>
             <img src={Profile} width='400' height='200' />
           </div>
         </div>
@@ -143,10 +143,10 @@ function Home() {
 
       <SectionHolder>
         <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose pt-[10%] pb-5 mt-[-40] text-white'>Skills</h2>
-        <div className='flex flex-row justify-between'>
+        <div className='flex flex-col md:flex-row justify-between gap-10'>
 
 
-          <div className='border-[#C37795] border-3 rounded-sm p-6 bg-[#2A141D]/78 w-[30%]'>
+          <div className='border-[#C37795] border-3 rounded-sm p-6 bg-[#2A141D]/78 md:w-[30%]'>
             <h3 className='font-["Kameron"] font-bold text-[26px] mb-[-2] text-white'>Technical</h3>
             <ul className='list-disc pl-5 font-["Kameron"] leading-loose text-white text-[20px]'>
               <li>HTML</li>
@@ -163,7 +163,7 @@ function Home() {
 
 
 
-          <div className='w-40% flex flex-col items-center justify-center'>
+          <div className='md:w-[40%] flex flex-col items-center justify-center'>
             <SkillSec title="Design">
               <li>Figma</li>
               <li>Adobe Illustrator</li>
@@ -172,7 +172,7 @@ function Home() {
 
 
 
-          <div className='border-[#C37795] border-3 rounded-sm p-6 bg-[#2A141D]/78 w-[30%]'>
+          <div className='border-[#C37795] border-3 rounded-sm p-6 bg-[#2A141D]/78 md:w-[30%]'>
             <h3 className='font-["Kameron"] font-bold text-[26px] mb-[-2] text-white'>Personal</h3>
             <ul className='list-disc pl-5 font-["Kameron"] leading-loose text-white text-[20px]'>
               <li>Attention to detail</li>
@@ -190,15 +190,15 @@ function Home() {
 
 
       <div className='relative'>
-        <img src={WaveBG}  height="auto" className='absolute top-0 left-0  z-1 w-[150vw]' />
-        <div className='flex flex-row justify-between pt-[18%] pb-5 max-w-370 mx-auto px-[10%] z-10 relative '>
-          <div className='w-[40%] flex justify-center items-center'>
+        <img src={WaveBG} className='absolute top-0 left-0  z-1 md:w-[150vw] h-[150vh] md:h-[140%]' />
+        <div className='flex flex-col md:flex-row justify-between pt-[25%] md:pt-[18%] pb-5 max-w-370 mx-auto px-[10%] z-10 relative '>
+          <div className='hidden md:flex md:w-[40%] justify-center items-center'>
             <img src={Resume} width='300' height='200' />
           </div>
 
-          <div className='w-[50%] gap-[20] items-center justify-center'>
+          <div className='md:w-[50%] gap-[20] items-center justify-center'>
             <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose py-3'>Resume</h2>
-            <p className='font-["Kameron"] text-[20px] leading-loose pb-[5%]'>Want to know more? Download my resume to see my work experience, my awards, my education, my skills, and my contact information! This one is especially designed to go with my website!</p>
+            <p className='font-["Kameron"] text-[20px] leading-loose pb-[5%]'>Want to know more? Download my resume to see my work experience, my awards, my education, my skills, and my contact information!</p>
             {/* insert button here */}
             <a href={PDF} 
       download="EmilyTaylor-Resume.pdf">

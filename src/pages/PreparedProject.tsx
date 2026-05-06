@@ -29,7 +29,7 @@ function PreparedProject() {
             {/* custom flower flow section */}
             <div className='max-w-370 mx-auto pt-20 px-[10%]'>
 
-                <h2 className='md:text-center text-[30px] font-["Kameron"] font-bold'>Prepared: an Emergency Preperation App</h2>
+                <h2 className='text-center text-[30px] font-["Kameron"] font-bold pb-2'>Prepared: an Emergency Preperation App</h2>
                 <p className='md:text-center text-[20px] font-["Kameron"]'>Case Study on UX / UI design for a Emergency Preperation App.</p>
             </div>
 
@@ -71,7 +71,7 @@ function PreparedProject() {
             {/* branding */}
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%] gap-[2%]'>
-                    <div className='flex flex-col gap-[20] lg:w-[40%]'>
+                    <div className='flex flex-col md:gap-[20] lg:w-[40%]'>
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>The Concept</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>The mobile app will assess your preparedness and give you suggestions based off of location and current prepardness. There is also be resources for offline use to look up for personal use.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose pt-[3%]'>The Home Page will give any current warnings for your favorited locations, and then suggest resources and links to national alerts and radar. It also has current preparation tracks and the next steps to do.</p>

@@ -26,8 +26,8 @@ function ASLProject() {
             {/* custom flower flow section */}
             <div className='max-w-370 mx-auto pt-20 px-[10%]'>
 
-                <h2 className='text-center text-[30px] font-["Kameron"] font-bold'>Freed-Hardeman's American Sign Language Club</h2>
-                <p className='text-center text-[20px] font-["Kameron"]'>Case Study on Designs for Campus Outreach</p>
+                <h2 className='text-center text-[30px] font-["Kameron"] font-bold pb-2'>Freed-Hardeman's American Sign Language Club</h2>
+                <p className='md:text-center text-[20px] font-["Kameron"]'>Case Study on Designs for Campus Outreach</p>
             </div>
 
             <SectionHolder>
@@ -70,7 +70,7 @@ function ASLProject() {
                 <div className='flex flex-col lg:flex-row justify-between py-[5%] gap-[2%]'>
                     <div className='flex flex-col gap-[2%] lg:w-[65%]'>
                         <div className='flex flex-col lg:flex-row justify-between'>
-                            <div className='lg:w-[50%] gap-[20]'>
+                            <div className='lg:w-[50%] md:gap-[20]'>
                                 <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>Branding</h2>
                                 <p className='font-["Kameron"] text-[18px] leading-loose'>To begin branding, I chose dark blue for trustworthiness and to have a different color from the social clubs. I then incorperated some of the ASL Alphabet into a logo and added our motto to summarize what the club does.</p>
                                 <p className='font-["Kameron"] text-[18px] leading-loose'>I originally designed the logo for slides and shirts, so the logo featured the current year.</p>

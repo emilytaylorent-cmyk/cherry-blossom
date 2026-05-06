@@ -23,7 +23,7 @@ function CycleProject() {
 
             {/* custom flower flow section */}
             <div className='max-w-370 mx-auto pt-20 px-[10%]'>
-                <h2 className='text-center text-[30px] font-["Kameron"] font-bold '>Peng-cycle: A Recycling Game Mobile App</h2>
+                <h2 className='text-center text-[30px] font-["Kameron"] font-bold pb-2'>Peng-cycle: A Recycling Game Mobile App</h2>
                 <p className='md:text-center text-[20px] font-["Kameron"]'>Case Study on UX / UI design for a Recycling App.</p>
             </div>
 
@@ -65,7 +65,7 @@ function CycleProject() {
             {/* branding */}
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%] gap-[2%]'>
-                    <div className='flex flex-col gap-[20] lg:w-[40%]'>
+                    <div className='flex flex-col md:gap-[20] lg:w-[40%]'>
                         <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>The Concept</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>My target audience is 7 - 14 years old, and what better way to get them involved than to gamify recycling? I drew inspiration from apps like Finch and Webkinz for ideas, and overall incorperated those into a recycling mobile app.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose pt-[3%]'>The app consists of a pet penguin, where you can earn points based on recycling tasks to customize its home and its outfits.</p>

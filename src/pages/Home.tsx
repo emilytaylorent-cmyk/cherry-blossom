@@ -36,7 +36,7 @@ function Home() {
       </div>
 
       <SectionHolder >
-        <h2 className=' font-bold text-[30px] leading-loose pt-[10%] pb-5 text-white' id="projects">Projects</h2>
+        <h2 className=' font-bold text-[30px] leading-loose pt-[10%] md:pb-5 text-white' id="projects">Projects</h2>
 
         <div className='flex flex-col gap-10 pb-10 md:pb-0'>
           {/* top half */}

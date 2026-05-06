@@ -15,7 +15,7 @@ import { useState } from 'react';
 
 function App() {
 
-    const [menuUp, setMenu] = useState(true);
+    const [menuUp, setMenu] = useState(false);
 
     const handleClick = () => setMenu(!menuUp);
 

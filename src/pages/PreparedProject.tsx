@@ -30,7 +30,7 @@ function PreparedProject() {
             <div className='max-w-370 mx-auto pt-20 px-[10%]'>
 
                 <h2 className='text-center text-[30px] font-["Kameron"] font-bold pb-2'>Prepared: an Emergency Preperation App</h2>
-                <p className='md:text-center text-[18px] md:text-[20px] font-["Kameron"] pb-2'>Case Study on UX / UI design for a Emergency Preperation App.</p>
+                <p className='text-center text-[18px] md:text-[20px] font-["Kameron"] pb-2'>Case Study on UX / UI design for a Emergency Preperation App.</p>
             </div>
 
             <SectionHolder>

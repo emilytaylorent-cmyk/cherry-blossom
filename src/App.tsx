@@ -3,21 +3,30 @@ import Home from './pages/Home.tsx';
 import { HashLink as Link2 } from 'react-router-hash-link';
 
 
+import Menu from "./assets/pictures/Menu.svg"
+import xMenu from "./assets/pictures/xIcon.svg"
 
 import ASLProject from './pages/ASLProject'
 import CycleProject from './pages/CycleProject'
 import CacaoProject from './pages/CacaoProject'
 import PreparedProject from './pages/PreparedProject'
+import { useState } from 'react';
+
 
 function App() {
+
+    const [menuUp, setMenu] = useState(true);
+
+    const handleClick = () => setMenu(!menuUp);
+
     return (
         <BrowserRouter>
-            
-            <div className='w-full bg-black flex flex-row px-[5%] border-b-2 items-end border-[#C37795]'>
-                <Link2 to="/#home"><h1 className='text-[30px] text-white font-["Kameron"] mb-2'>Emily Taylor</h1></Link2>
+
+            <div className='w-full bg-black flex flex-row px-[5%] border-b-2 justify-between items-center border-[#C37795]'>
+                <Link2 to="/#home"><h1 className='text-[30px] text-white font-["Kameron"] pb-2 pt-2'>Emily Taylor</h1></Link2>
                 {/* <p>Created with React, TypeScript, and Tailwind CSS</p> */}
 
-                
+
 
 
                 <ul className='w-[40%] flex-row justify-between ml-auto mt-1 lg:flex hidden'>
@@ -25,7 +34,29 @@ function App() {
                     <Link2 to="/#projects"><li className='text-[18px] font-["Kameron"] hover:bg-[#C37795] hover:cursor-pointer p-4 w-30 text-center text-white hover:text-black'>Projects</li></Link2>
                     <Link2 to="/#contact"><li className='text-[18px] font-["Kameron"] hover:bg-[#C37795] hover:cursor-pointer p-4 w-30 text-center text-white hover:text-black'>Contact</li></Link2>
                 </ul>
+
+                <button onClick={handleClick} className='p-4 ml-auto h-[70%] lg:hidden cursor-pointer'>
+                        <img src={Menu} className='h-[70%] lg:hidden cursor-pointer' />
+                    </button>
+
+                
             </div>
+
+            {menuUp &&
+                <div className='w-full h-full absolute top-0 right-0 z-100  bg-[#2A141D]'>
+                    <button onClick={handleClick} className='p-4 ml-[87%]'>
+                        <img src={xMenu} />
+                    </button>
+                    
+                    <ul className='font-["Kameron"] text-[20px] leading-loose ml-auto w-[60%]'>
+                        <li><Link2 to="/#about" className='hover:bg-white hover:cursor-pointer p-2 text-[#C37795]'>About</Link2></li>
+                        <li><Link2 to="/#projects" className='hover:bg-white hover:cursor-pointer p-2 text-[#C37795]'>Projects</Link2></li>
+                        <li><Link2 to="/#contact" className='hover:bg-white hover:cursor-pointer p-2 text-[#C37795]'>Contact</Link2></li>
+                    </ul>
+
+                </div>
+
+            }
 
 
             <Routes>
@@ -59,7 +90,7 @@ function App() {
                         <li><Link2 to="/#contact" className='hover:bg-[#2A141D]/78 hover:cursor-pointer  p-[5%]  text-[#C37795]'>Contact</Link2></li>
                     </ul>
 
-                    
+
                 </div>
 
 

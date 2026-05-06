@@ -34,7 +34,7 @@ function CacaoProject() {
             {/* custom flower flow section */}
             <div className='max-w-370 mx-auto pt-20 px-[10%]'>
                 <h2 className='text-center text-[30px] font-["Kameron"] font-bold pb-2'>Cacao del Sol</h2>
-                <p className='md:text-center text-[18px] md:text-[20px] pb-2 '>Case Study Class Project on the Full Design Process</p>
+                <p className='text-center text-[18px] md:text-[20px] pb-2 '>Case Study Class Project on the Full Design Process</p>
             </div>
 
             <SectionHolder>

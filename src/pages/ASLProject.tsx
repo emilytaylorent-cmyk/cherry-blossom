@@ -27,7 +27,7 @@ function ASLProject() {
             <div className='max-w-370 mx-auto pt-20 px-[10%]'>
 
                 <h2 className='text-center text-[30px] font-["Kameron"] font-bold pb-2'>Freed-Hardeman's American Sign Language Club</h2>
-                <p className='md:text-center text-[20px] font-["Kameron"]'>Case Study on Designs for Campus Outreach</p>
+                <p className='md:text-center text-[18px] md:text-[20px] v'>Case Study on Designs for Campus Outreach</p>
             </div>
 
             <SectionHolder>

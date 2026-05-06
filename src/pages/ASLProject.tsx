@@ -50,7 +50,7 @@ function ASLProject() {
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-evenly py-[5%]'>
 
-                    <div className='flex flex-col justify-center items-center gap-2'>
+                    <div className='flex flex-col justify-center items-center md:gap-2'>
                         <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose '>Project Goals</h2>
                         <SkillSec>
                             <li>To have a recognizable brand</li>

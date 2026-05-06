@@ -40,7 +40,7 @@ function Home() {
 
         <div className='flex flex-col gap-10'>
           {/* top half */}
-          <div className='flex flex-col lg:flex-row justify-between'>
+          <div className='flex flex-col lg:flex-row justify-between gap-10 md:gap-0'>
 
             <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[47%]'>
               <div className='flex flex-row gap-10 pb-5'>
@@ -80,7 +80,7 @@ function Home() {
           </div>
           {/* end of top half */}
 
-           <div className='flex flex-col lg:flex-row justify-between'>
+           <div className='flex flex-col lg:flex-row justify-between gap-10 md:gap-0'>
 
             <div className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[47%]'>
               <div className='flex flex-row gap-10 pb-5'>

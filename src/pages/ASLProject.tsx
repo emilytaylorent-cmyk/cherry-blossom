@@ -33,7 +33,7 @@ function ASLProject() {
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%]'>
                     <div className='lg:w-[40%] gap-[20]'>
-                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>The Beginning</h2>
+                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>The Beginning</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>When I came to the club, there weren't really any specific identifiers for the Club. The only thing that set us apart was our use of geometric shapes in slides and posters.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>Not a lot of people knew about the ASL Club, and really just thought of it as just another club. I was just getting into branding and design, so I wanted to help the club as I became its social media manager.</p>
                     </div>
@@ -71,7 +71,7 @@ function ASLProject() {
                     <div className='flex flex-col gap-[2%] lg:w-[65%]'>
                         <div className='flex flex-col lg:flex-row justify-between'>
                             <div className='lg:w-[50%] gap-[20]'>
-                                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>Branding</h2>
+                                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>Branding</h2>
                                 <p className='font-["Kameron"] text-[18px] leading-loose'>To begin branding, I chose dark blue for trustworthiness and to have a different color from the social clubs. I then incorperated some of the ASL Alphabet into a logo and added our motto to summarize what the club does.</p>
                                 <p className='font-["Kameron"] text-[18px] leading-loose'>I originally designed the logo for slides and shirts, so the logo featured the current year.</p>
                             </div>
@@ -104,7 +104,7 @@ function ASLProject() {
                         </div>
                     </div>
                     <div className='lg:w-[50%] gap-[20] pt-[5%]'>
-                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>The Website</h2>
+                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>The Website</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>A lot of people had to track down information from chapel slides, or find one of our posters hanging up, so I brainstormed another way to get people involved quickly and be able to find information without scraping our social media accounts.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose pb-4'>I wasn't able to implement my website before leadership changed, and leadership didn't seem interested in the rebranding effort, so the design remained in Figma. If you'd like to see the design, click <a className='underline text-pink-700' href="https://www.figma.com/design/rfTX5NdoOo2om42cwCanFJ/FHU-ASL-Website?node-id=0-1&t=VQ3nvjFYhpiCyyei-1" target="_blank" rel="noopener noreferrer">here</a> or the button below!</p>
                         <a href="https://www.figma.com/design/rfTX5NdoOo2om42cwCanFJ/FHU-ASL-Website?node-id=0-1&t=VQ3nvjFYhpiCyyei-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
@@ -118,7 +118,7 @@ function ASLProject() {
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%]'>
                     <div className='lg:w-[40%] gap-[20]'>
-                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>Results</h2>
+                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>Results</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>Many students in chapel expressed appreciation of the new chapel slide, making a mental note to attend or expressing surprise that a such a club existed on campus.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>A few noted that the difference of color and design from the other slides made it stand out, making it more noticable, making the overall effort a success.</p>
                     </div>
@@ -129,7 +129,7 @@ function ASLProject() {
                     </div>
                 </div>
 
-                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>More Projects!</h2>
+                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>More Projects!</h2>
 
                 <div className='flex flex-col lg:flex-row justify-between'>
                 

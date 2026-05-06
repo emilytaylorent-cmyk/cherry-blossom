@@ -40,7 +40,7 @@ function CacaoProject() {
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%]'>
                     <div className='lg:w-[40%] gap-[20]'>
-                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 '>The Prompt</h2>
+                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3 '>The Prompt</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose '>Giving us a fictional name, our teacher tasked us with creating a brand identity and visual assets for a chocolate company.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose '>I chose the name "Cacao del Sol," which originiated from Mexican roots and means "Chocolate of the Sun."</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose '>Delieverables for this project included: a logo, a website, a company story, and chocolate packaging.</p>
@@ -78,7 +78,7 @@ function CacaoProject() {
 
             <SectionHolder>
                 <div className='flex flex-row items-center justify-center py-[5%]'>
-                    <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 pl-2 text-center '>Cacao del Sol leans deeply into their Mexican culture with fun bright colors, while creating a family-friendly chocolate. They are a family business run on hope, love, and  papel picado.</h2>
+                    <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3 pl-2 text-center '>Cacao del Sol leans deeply into their Mexican culture with fun bright colors, while creating a family-friendly chocolate. They are a family business run on hope, love, and  papel picado.</h2>
                 </div>
             </SectionHolder>
 
@@ -90,7 +90,7 @@ function CacaoProject() {
                     <div className='flex flex-col gap-[2%] lg:w-[55%]'>
                         <div className='flex flex-row justify-between'>
                             <div className='gap-[20]'>
-                                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 '>Branding</h2>
+                                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3 '>Branding</h2>
                                 <p className='font-["Kameron"] text-[18px] leading-loose '>Doing research on Mexican culture, I found that one of the biggest cultural art styles was of papel picado. I chose a flowing friendly cursive font for the logo, since Mexican families often own businesses together and cursive fonts generally are associated with home.</p>
                                 <p className='font-["Kameron"] text-[18px] leading-loose '> To bring the branding together, I used papel picado and a sun for the Sol part of the company name. </p>
                             </div>
@@ -114,7 +114,7 @@ function CacaoProject() {
                         </div>
                     </div>
                     <div className='lg:w-[50%] gap-[20] pt-[5%]'>
-                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>The Website</h2>
+                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>The Website</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose '>For the website, it was more about the story than selling the products. So, using the company story and the brand's papel picado, I focused on the family and the impact of the chocolate.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose pb-4'>Most of the website is black and white, since people tend to ignore bright colors because of advertisements or think it looks unprofessional on a website.</p>
                         <a href="https://www.figma.com/design/UnAUqJ9pz8jUGNyI0QLz4f/Cacao-Del-Sol?node-id=0-1&t=zDWFzgkvnmBwljMX-1" className='no-underline' target="_blank" rel="noopener noreferrer"><div className='border-white bg-black text-white border-2 rounded-sm font-["Kameron"] text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
@@ -129,7 +129,7 @@ function CacaoProject() {
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between pt-[5%]'>
                     <div className='lg:w-[45%] gap-[20]'>
-                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 tracking-wide'>Chocolate Packaging</h2>
+                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3 tracking-wide'>Chocolate Packaging</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>I chose three common Mexican chocolate flavors for my designs: dark, cinnamon, and almond. I chose colors from a inspiration photo to help the brand stay consistent with packaging and designs.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>I chose two primary fonts, a script for the chocolate heading and a serif font for the English translation of the chocolate name. The illustrations use the same lacy feel as the logo and the stars help bring the chocolates together.</p>
                     </div>
@@ -157,7 +157,7 @@ function CacaoProject() {
 
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row items-center justify-center'>
-                    <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3 pl-2 text-center'>Brand Guidelines</h2>
+                    <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3 pl-2 text-center'>Brand Guidelines</h2>
                 </div>
                 <div className='flex flex-col lg:flex-row justify-between lg:pb-[5%] items-center'>
                     <img src={Brand1} width='300' height='300' className='border border-black'/>
@@ -171,7 +171,7 @@ function CacaoProject() {
                 </div>
 
               
-                                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>More Projects!</h2>
+                                <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>More Projects!</h2>
 
                 <div className='flex flex-col lg:flex-row justify-between'>
                 

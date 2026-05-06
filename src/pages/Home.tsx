@@ -190,7 +190,7 @@ function Home() {
 
 
       <div className='relative'>
-        <img src={WaveBG} className='absolute top-0 left-0 z-1 md:w-[150vw] h-[140%]' />
+        <img src={WaveBG} className='absolute top-0 left-0 z-1 md:w-[150vw] h-[130%] md:h-[140%]' />
         <div className='flex flex-col md:flex-row justify-between pt-[25%] md:pt-[18%] pb-5 max-w-370 mx-auto px-[10%] z-10 relative '>
           <div className='hidden md:flex md:w-[40%] justify-center items-center'>
             <img src={Resume} width='300' height='200' />

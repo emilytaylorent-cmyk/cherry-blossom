@@ -23,14 +23,14 @@ function CycleProject() {
 
             {/* custom flower flow section */}
             <div className='max-w-370 mx-auto pt-20 px-[10%]'>
-                <h2 className='md:text-center text-[30px] font-["Kameron"] font-bold '>Peng-cycle: A Recycling Game Mobile App</h2>
+                <h2 className='text-center text-[30px] font-["Kameron"] font-bold '>Peng-cycle: A Recycling Game Mobile App</h2>
                 <p className='md:text-center text-[20px] font-["Kameron"]'>Case Study on UX / UI design for a Recycling App.</p>
             </div>
 
             <SectionHolder>
                 <div className='flex flex-col lg:flex-row justify-between py-[5%]'>
                     <div className='lg:w-[40%] gap-[20]'>
-                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose py-3'>The Problem</h2>
+                        <h2 className='font-["Kameron"] font-bold text-[24px] leading-loose md:py-3'>The Problem</h2>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>For this class project, we had to identify a problem and come up with a creative solution that we could design a mobile app for. I chose the problem of global warming and zoned in on promoting recycling as my problem.</p>
                         <p className='font-["Kameron"] text-[18px] leading-loose'>There are plenty of recycling apps out there, but none for kids. I decided to come up with a game that combined Webkinz and Finch that promoted recycling from kids 7 - 14 years old.</p>
 
@@ -48,7 +48,7 @@ function CycleProject() {
             <SectionHolder>
                 <div className='flex flex-row justify-evenly py-[5%]'>
                     <div className='flex flex-col justify-center items-center gap-2'>
-                        <h2 className='font-["Kameron"] font-bold text-[30px] leading-loose '>Project Goals</h2>
+                        <h2 className='font-["Kameron"] font-bold text-[30px] md:leading-loose '>Project Goals</h2>
                         <SkillSec>
                             <li>Identify a problem, target audience, and analyze competitors.</li>
                             <li>Create a mobile app that identifies a creative solution to the problem</li>

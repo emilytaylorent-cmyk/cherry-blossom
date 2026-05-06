@@ -22,9 +22,9 @@ function CycleProject() {
         <div className='max-w-[100vw] bg-black pb-5' id="top">
 
             {/* custom flower flow section */}
-            <div className='max-w-370 mx-auto pt-20'>
-                <h2 className='text-center text-[30px] font-["Kameron"] font-bold px-5 lg:px-0'>Peng-cycle: A Recycling Game Mobile App</h2>
-                <p className='text-center text-[20px] font-["Kameron"]'>Case Study on UX / UI design for a Recycling App.</p>
+            <div className='max-w-370 mx-auto pt-20 px-[10%]'>
+                <h2 className='md:text-center text-[30px] font-["Kameron"] font-bold '>Peng-cycle: A Recycling Game Mobile App</h2>
+                <p className='md:text-center text-[20px] font-["Kameron"]'>Case Study on UX / UI design for a Recycling App.</p>
             </div>
 
             <SectionHolder>

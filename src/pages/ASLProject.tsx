@@ -24,9 +24,9 @@ function ASLProject() {
         <div className='max-w-[100vw] bg-black pb-5' id="top">
 
             {/* custom flower flow section */}
-            <div className='max-w-370 mx-auto pt-20'>
+            <div className='max-w-370 mx-auto pt-20 px-[10%]'>
 
-                <h2 className='text-center text-[30px] font-["Kameron"] font-bold px-5 lg:px-0'>Freed-Hardeman's American Sign Language Club</h2>
+                <h2 className='text-center text-[30px] font-["Kameron"] font-bold'>Freed-Hardeman's American Sign Language Club</h2>
                 <p className='text-center text-[20px] font-["Kameron"]'>Case Study on Designs for Campus Outreach</p>
             </div>
 

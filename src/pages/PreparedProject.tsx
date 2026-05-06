@@ -27,10 +27,10 @@ function PreparedProject() {
         <div className='max-w-[100vw] bg-black pb-5' id="top">
 
             {/* custom flower flow section */}
-            <div className='max-w-370 mx-auto pt-20'>
+            <div className='max-w-370 mx-auto pt-20 px-[10%]'>
 
-                <h2 className='text-center text-[30px] font-["Kameron"] font-bold px-5 lg:px-0'>Prepared: an Emergency Preperation App</h2>
-                <p className='text-center text-[20px] font-["Kameron"]'>Case Study on UX / UI design for a Emergency Preperation App.</p>
+                <h2 className='md:text-center text-[30px] font-["Kameron"] font-bold'>Prepared: an Emergency Preperation App</h2>
+                <p className='md:text-center text-[20px] font-["Kameron"]'>Case Study on UX / UI design for a Emergency Preperation App.</p>
             </div>
 
             <SectionHolder>

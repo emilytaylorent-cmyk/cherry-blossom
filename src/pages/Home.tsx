@@ -38,7 +38,7 @@ function Home() {
       <SectionHolder >
         <h2 className=' font-bold text-[30px] leading-loose pt-[10%] pb-5 text-white' id="projects">Projects</h2>
 
-        <div className='flex flex-col gap-10'>
+        <div className='flex flex-col gap-10 pb-10 md:pb-0'>
           {/* top half */}
           <div className='flex flex-col lg:flex-row justify-between gap-10 md:gap-0'>
 

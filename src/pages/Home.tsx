@@ -27,7 +27,7 @@ function Home() {
 
 
       {/* custom flower flow section */}
-      <div className='max-w-370 mx-auto md:min-h-140 min-h-80 h-[80%] flex items-center justify-center relative'>
+      <div className='max-w-370 mx-auto md:min-h-140 min-h-80 h-[110%] flex items-center justify-center relative'>
         <img src={SunsetPink} className='absolute top-0 left-0 w-full h-[110%]'/>
         <div className='bg-[#2A141D]/78 p-7 md:w-[40%] w-[70%] relative'>
           <h2 className='text-center text-white text-[24px]  font-bold z-10'>Creating quality websites that are beautiful and functional for your business.</h2>
@@ -36,7 +36,7 @@ function Home() {
       </div>
 
       <SectionHolder >
-        <h2 className=' font-bold text-[30px] leading-loose pt-[10%] pb-5 mt-[-40] text-white' id="projects">Projects</h2>
+        <h2 className=' font-bold text-[30px] leading-loose pt-[10%] pb-5 text-white' id="projects">Projects</h2>
 
         <div className='flex flex-col gap-10'>
           {/* top half */}
@@ -190,7 +190,7 @@ function Home() {
 
 
       <div className='relative'>
-        <img src={WaveBG} className='absolute top-0 left-0  z-1 md:w-[150vw] h-[150vh] md:h-[140%]' />
+        <img src={WaveBG} className='absolute top-0 left-0 z-1 md:w-[150vw] h-[150%] md:h-[140%]' />
         <div className='flex flex-col md:flex-row justify-between pt-[25%] md:pt-[18%] pb-5 max-w-370 mx-auto px-[10%] z-10 relative '>
           <div className='hidden md:flex md:w-[40%] justify-center items-center'>
             <img src={Resume} width='300' height='200' />
@@ -211,7 +211,7 @@ function Home() {
       </div>
 
       <SectionHolder>
-        <div className='max-w-370 mx-auto min-h-70  flex pt-[30%] justify-center items-center pb-[15%]'>
+        <div className='max-w-370 mx-auto min-h-70  flex py-[30%] justify-center items-center '>
           <h2 className='text-center text-[24px]  font-bold' id="contact">Contact me at <a href="mailto:emilytaylor@gmail.com" className='underline'>emilytaylor@gmail.com</a> or follow me on <a href="www.linkedin.com/in/emily-taylor-1a145138b" className='underline'>LinkedIn!</a></h2>
         </div>
       </SectionHolder>

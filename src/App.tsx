@@ -32,7 +32,7 @@ function App() {
                 <ul className='w-[40%] flex-row justify-between ml-auto mt-1 lg:flex hidden'>
                     <Link2 to="/#about"><li className='text-[18px] font-["Kameron"] hover:bg-[#C37795] hover:cursor-pointer p-4 w-30 text-center text-white hover:text-black'>About</li> </Link2>
                     <Link2 to="/#projects"><li className='text-[18px] font-["Kameron"] hover:bg-[#C37795] hover:cursor-pointer p-4 w-30 text-center text-white hover:text-black'>Projects</li></Link2>
-                    <Link2 to="/#contact"><li className='text-[18px] font-["Kameron"] hover:bg-[#C37795] hover:cursor-pointer p-4 w-30 text-center text-white hover:text-black'>Contact</li></Link2>
+                    <Link2 to="/#more"><li className='text-[18px] font-["Kameron"] hover:bg-[#C37795] hover:cursor-pointer p-4 w-30 text-center text-white hover:text-black'>More</li></Link2>
                 </ul>
 
                 <button onClick={handleClick} className='p-4 ml-auto h-[70%] lg:hidden cursor-pointer'>
@@ -51,7 +51,7 @@ function App() {
                     <ul className='font-["Kameron"] text-[20px] leading-loose ml-auto w-[60%]'>
                         <li><Link2 to="/#about" className='hover:bg-white hover:cursor-pointer p-2 text-[#C37795]'>About</Link2></li>
                         <li><Link2 to="/#projects" className='hover:bg-white hover:cursor-pointer p-2 text-[#C37795]'>Projects</Link2></li>
-                        <li><Link2 to="/#contact" className='hover:bg-white hover:cursor-pointer p-2 text-[#C37795]'>Contact</Link2></li>
+                        <li><Link2 to="/#more" className='hover:bg-white hover:cursor-pointer p-2 text-[#C37795]'>More</Link2></li>
                     </ul>
 
                 </div>
@@ -77,14 +77,8 @@ function App() {
 
                     </div>
 
-                    <ul className='font-["Roberto", sans-serif] text-[18px] leading-loose hidden md:block md:w-[40%]'>
-                        <li>Email: emilytaylor@gmail.com</li>
-                        <li>LinkedIn: emilytaylor3333333</li>
-                        <li>Website: emily-portfolio.netlify.com</li>
-                    </ul>
 
-
-                    <ul className='font-["Kameron"] text-[20px] leading-loose w-[30%] hidden md:block'>
+                    <ul className='font-["Kameron"] text-[20px] leading-loose w-[30%] hidden md:block mr-auto'>
                         <li><Link2 to="/#about" className='hover:bg-[#2A141D]/78 hover:cursor-pointer p-[5%] text-[#C37795]'>About</Link2></li>
                         <li><Link2 to="/#projects" className='hover:bg-[#2A141D]/78 hover:cursor-pointer  p-[5%]  text-[#C37795]'>Projects</Link2></li>
                         <li><Link2 to="/#contact" className='hover:bg-[#2A141D]/78 hover:cursor-pointer  p-[5%]  text-[#C37795]'>Contact</Link2></li>

@@ -10,12 +10,12 @@ import WaveBG from "../assets/pictures/WaveBG.svg"
 import SectionHolder from '../components/SectionHolder'
 import SkillSec from '../components/SkillSec'
 // import Linked from "../assets/pictures/LinkedinIcon.svg"
-// import Email from "../assets/pictures/EmailIcon.svg"
-import Download from "../assets/pictures/DownloadWhite.svg"
+import Flowers from "../assets/pictures/corina-ardeleanu-sWlxCweDzzs-unsplash.jpg"
+import Bethel from "../assets/pictures/BethelCOC.png"
 import Cacao from "../assets/pictures/chocolatePics/LogoBlack 2.png"
 import ASL from "../assets/pictures/ASL-Color-Logo.png"
-import Resume from "../assets/pictures/EmilyTaylor-Resume.jpg"
-import PDF from "../assets/pictures/EmilyTaylor-Resume.pdf"
+
+
 
 
 
@@ -130,7 +130,7 @@ function Home() {
         <div className='flex lg:flex-row flex-col justify-between mt-[2%] py-[4%]' id="about" >
           <div className='lg:w-[50%] gap-[20] flex flex-col justify-center'>
             <h2 className=' font-bold text-[30px] leading-loose py-3 text-white'>Meet the Designer</h2>
-            <p className=' text-[18px] leading-loose text-white'>A small-town Christian with a big heart, I’ll deliver a beautiful and functional solution for your business' website.</p>
+            <p className=' text-[18px] leading-loose text-white'>I'm Emily, someone who will deliver a beautiful and functional solution for your business' website.</p>
             <p className=' text-[18px] leading-loose pt-3 text-white'>UX / UI Design is my specialty, especially with my keen eye for detail and empathy for users. I enjoy creating websites, optimizing them, and refining them. </p>
             <p className=' text-[18px] leading-loose pt-3 text-white'>It is my mission to create quality designs that are accesssible, beautiful, and functional!</p>
           </div>
@@ -189,32 +189,76 @@ function Home() {
       </SectionHolder>
 
 
-      <div className='relative'>
+      <div className='relative' id="more">
         <img src={WaveBG} className='absolute top-0 left-0 z-1 md:w-[150vw] h-[130%] md:h-[140%]' />
         <div className='flex flex-col md:flex-row justify-between pt-[25%] md:pt-[18%] pb-5 max-w-370 mx-auto px-[10%] z-10 relative '>
           <div className='hidden md:flex md:w-[40%] justify-center items-center'>
-            <img src={Resume} width='300' height='200' />
+            {/* <img src={Resume} width='300' height='200' /> */}
           </div>
 
           <div className='md:w-[50%] gap-[20] items-center justify-center'>
-            <h2 className='font-bold text-[30px] leading-loose py-3'>Resume</h2>
-            <p className=' text-[18px] leading-loose pb-[5%]'>Want to know more? Download my resume to see my work experience, my awards, my education, my skills, and my contact information!</p>
+            <h2 className='font-bold text-[30px] leading-loose py-3'>More of My Work</h2>
+            <p className=' text-[18px] leading-loose pb-[5%]'>Want to see what else I do? Check out my side studio for wedding designs or scroll down for real websites I created! I have experience across most of the frontend, and am a fast learner for new opportunities.</p>
             {/* insert button here */}
-            <a href={PDF} 
-      download="EmilyTaylor-Resume.pdf">
+            <a href="">
             <div className='border-white bg-black text-white border-2 rounded-sm  text-[18px] p-3 flex flex-row gap-2 items-center justify-center hover:bg-[#C999BC] hover:border-[#F1D6E0] hover:cursor-pointer'>
-              <img src={Download} />
-              Download Resume Here</div></a>
+              Check out Forever After Studio</div></a>
           </div>
 
         </div>
       </div>
 
       <SectionHolder>
-        <div className='max-w-370 mx-auto min-h-70  flex py-[30%] justify-center items-center '>
-          <h2 className='text-center text-[24px]  font-bold' id="contact">Contact me at <a href="mailto:emilytaylor@gmail.com" className='underline'>emilytaylor@gmail.com</a> or follow me on <a href="www.linkedin.com/in/emily-taylor-1a145138b" className='underline'>LinkedIn!</a></h2>
+        <div className='py-[10%]'>
+        <h2 className='font-bold text-[30px] leading-loose pt-[10%] md:pb-5 text-white' id="projects">Websites</h2>
+
+        <div className='flex flex-col lg:flex-row gap-10 pb-10 md:pb-0'>
+           <a href="/" className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[47%]  hover:bg-[#C37795]'>
+              <div className='flex flex-row lg:flex-col gap-10 pb-5'>
+                <div className='flex flex-col items-center justify-center w-[30%] lg:w-full'>
+                  <img src={SunsetPink} className='rounded-sm' />
+                </div>
+
+                <div className='md:flex md:flex-col '>
+                  <h3 className='font-["Kameron"] text-[26px] text-white'>Portfolio Website</h3>
+                  <p className=' text-[18px]'>React, Tailwind CSS, Figma</p>
+                </div>
+              </div>
+          </a>
+
+           
+          <a href="https://bethelchurchofchrist.net/" className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[47%] hover:bg-[#C37795]'>
+              <div className='flex flex-row lg:flex-col gap-10 pb-5'>
+                <div className='flex flex-col items-center justify-center w-[30%] lg:w-full'>
+                  <img src={Bethel} className='rounded-sm' />
+                </div>
+
+                <div className='md:flex md:flex-col '>
+                  <h3 className='font-["Kameron"] text-[26px] text-white'>Bethel Church of Christ</h3>
+                  <p className=' text-[18px]'>Wordpress, HTML, CSS</p>
+                </div>
+              </div>
+          </a>
+
+
+          <a href="https://magic-carousel.netlify.app/" className=' border-3 rounded-md  p-6 bg-[#2A141D]/78 lg:w-[47%] hover:bg-[#C37795]'>
+              <div className='flex flex-row lg:flex-col gap-10 pb-5'>
+                <div className='flex flex-col items-center justify-center w-[30%] lg:w-full'>
+                  <img src={Flowers} className='rounded-sm' />
+                </div>
+
+                <div className='md:flex md:flex-col '>
+                  <h3 className='font-["Kameron"] text-[26px] text-white'>Magic Carousel</h3>
+                  <p className=' text-[18px]'>HTML, CSS, Javascript</p>
+                </div>
+              </div>
+          </a>
+
+
+        </div>
         </div>
       </SectionHolder>
+
 
     </div>
   )
